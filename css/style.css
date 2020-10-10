@@ -1,0 +1,19 @@
+.slider h3,
+.slider h5,
+.read h3{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.5);
+}
+
+.parallax img{
+    filter: blur(5);
+    opacity: 0.5;
+}
+.parallax-container{
+    height: 20%;
+}
+section, footer{
+    padding: 20px 0px;
+}
+section, .about{
+    padding: 20px 0px;
+}
