@@ -231,7 +231,7 @@
                           <span class="focus-input100"></span>
                         </div>
                         <div class="wrap-input100 input-field">
-                          <input id="email" class="input100 nowhatsapp" type="text">
+                          <input id="email" class="input100 nowhatsapp" type="email">
                           <label for="email">Email</label>
                           <span class="focus-input100"></span>
                         </div>
@@ -302,7 +302,7 @@
                 nama = $('#whatsapp .nama').val(),
                 nowhatsapp = $('#whatsapp .nowhatsapp').val(),
                 alamat = $('#whatsapp .alamat').val();
-              $(this).attr('href', url_wa + '?phone=62 ' + tujuan + '&text=Nama: ' + nama + ' %0AEmail' + nowhatsapp + '%0APesanan: ' + alamat);
+              $(this).attr('href', url_wa + '?phone=62 ' + tujuan + '&text=Nama: ' + nama + ' %0AEmail: ' + nowhatsapp + '%0APesanan: ' + alamat);
               var w = 960,
                 h = 540,
                 left = Number((screen.width / 2) - (w / 2)),
